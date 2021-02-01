@@ -14,10 +14,7 @@ int main(){
     return 0;
   
   while(t >0){
-    scanf("%d", &a);
-    scanf("%d", &b);
-    scanf("%d", &c);
-    scanf("%d", &d);
+    scanf("%d %d %d %d", &a, &b, &c, &d);
 
     if( a < 0 || d > 9 || d > a || b > c)
       return 0;
