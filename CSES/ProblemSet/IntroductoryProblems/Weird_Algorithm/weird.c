@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 void weird(long n);
-
+/**
+ * Solution to the CSES "Wird Algorithm" problem.
+ * https://cses.fi/problemset/task/1083
+ */
 int main()
 {
   long n;
@@ -10,6 +13,10 @@ int main()
   weird(n);
 }
 
+/**
+ * weird: Recursive function; prints and determines the next weird number.
+ * @param n, long. Weird number.
+ */
 void weird(long n)
 {
   if(n == 1){
